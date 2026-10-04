@@ -1,0 +1,2 @@
+@media(max-width:1024px){.grid-5{grid-template-columns:repeat(3,minmax(0,1fr))}.sidebar{transform:translateX(-100%);transition:.2s}.sidebar.open{transform:translateX(0)}.main{margin-left:0}.mobile-menu{display:inline-flex}.content{padding:16px}.topbar{padding:0 16px}.email{display:none}}
+@media(max-width:640px){.grid-2,.grid-3,.grid-5{grid-template-columns:1fr}.report-card{align-items:flex-start;flex-direction:column}.topbar{height:60px}.page-head h1{font-size:22px}}

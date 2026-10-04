@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMART-03 Wellness Home Guardian | Sanatan Labs</title>
+  <meta name="description" content="Find posture, screen and environment risks in your workspace and get a clear score across five wellness domains." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/landing.css" />
+</head>
+<body id="top">
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top"><span class="mark ic" data-i="shield"></span><span><b>Sanatan Labs</b><small>Wellness Home Guardian</small></span></a>
+  <nav class="links" id="links">
+    <a href="#domains">What we check</a><a href="#how">How it works</a><a href="#assessment">The assessment</a><a href="#faq">FAQ</a>
+  </nav>
+  <div class="nav-cta">
+    <a class="btn ghost" id="loginLink" href="pages/login.html">Log in</a>
+    <a class="btn solid" id="startLink" href="pages/login.html">Start assessment</a>
+    <button class="burger" id="burger" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-text">
+    <span class="pill"><i></i>SMART-03 · Workspace wellness check</span>
+    <h1>Spot workspace strain before it becomes pain.</h1>
+    <p class="lead">SMART-03 asks the right questions about how you sit, work and recover. It scores your risk across five domains and shows what to fix first.</p>
+    <div class="cta-row">
+      <a class="btn solid lg" id="heroStart" href="pages/login.html">Start your assessment</a>
+      <a class="btn outline lg" href="#how">See how it works</a>
+    </div>
+    <ul class="trust">
+      <li><span class="ic" data-i="check"></span>Free demo</li>
+      <li><span class="ic" data-i="check"></span>Answers stay in your browser</li>
+      <li><span class="ic" data-i="check"></span>Results in one sitting</li>
+    </ul>
+    <p class="fine">Free demo. Your answers stay in this browser. Not a medical device.</p>
+  </div>
+
+  <div class="scene" aria-label="Example: a workspace scan highlighting posture and screen risks">
+    <svg viewBox="0 0 480 420" aria-hidden="true">
+      <defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#1e293b" stroke-width=".6"/></pattern></defs>
+      <rect width="480" height="420" fill="url(#g)" opacity=".6"/>
+      <g fill="none" stroke="#475569" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M30 300H450"/><path d="M70 300V372M410 300V372" stroke-width="5"/>
+        <path d="M128 296H214M130 296V212M170 296V352M140 352H200"/>
+      </g>
+      <g fill="none" stroke="#94a3b8" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M172 282L186 206"/><path d="M188 204L212 192"/>
+        <path d="M186 214L216 256L292 262"/><path d="M172 284L262 288L266 346"/><path d="M266 346H292"/>
+      </g>
+      <circle cx="218" cy="174" r="21" fill="#0b1424" stroke="#94a3b8" stroke-width="7"/>
+      <g fill="none" stroke="#2dd4bf" stroke-width="3" stroke-linecap="round"><rect x="312" y="186" width="112" height="76" rx="8"/><path d="M368 262V300M340 300H396"/></g>
+    </svg>
+    <div class="scan"></div>
+    <div class="mk l" style="--x:45%;--y:41%;--c:#fb7185;--t:3.1s"><i></i><span>Neck pushed forward</span></div>
+    <div class="mk l" style="--x:36%;--y:64%;--c:#fbbf24;--t:3.5s"><i></i><span>Lower back unsupported</span></div>
+    <div class="mk t" style="--x:74%;--y:45%;--c:#fbbf24;--t:3.9s"><i></i><span>Screen too low</span></div>
+    <div class="mk b" style="--x:61%;--y:62%;--c:#fbbf24;--t:4.3s"><i></i><span>Wrist reaching</span></div>
+    <div class="res"><div><small>Example result</small><b>Moderate risk</b></div><strong><span data-count="68" data-delay="4300">0</span><em>/100</em></strong></div>
+  </div>
+</section>
+
+<section class="sec split" id="domains">
+  <div class="sec-head reveal">
+    <h2>Five domains, one clear picture</h2>
+    <p>Pain rarely has one cause. We look at the whole workspace and rank what matters most, instead of handing you a generic list of tips.</p>
+  </div>
+  <ul class="dlist">
+    <li class="reveal" style="--c:#2dd4bf"><span class="ic" data-i="armchair"></span><div><b>Ergonomics</b><p>Chair, back support, screen height, keyboard and mouse position.</p></div></li>
+    <li class="reveal" style="--c:#60a5fa"><span class="ic" data-i="wind"></span><div><b>Environment</b><p>Ventilation, light, glare, noise, temperature and air quality.</p></div></li>
+    <li class="reveal" style="--c:#fbbf24"><span class="ic" data-i="trendingUp"></span><div><b>Exposure</b><p>How long you sit at a stretch and how repetitive your hand movement is.</p></div></li>
+    <li class="reveal" style="--c:#a78bfa"><span class="ic" data-i="activity"></span><div><b>Movement</b><p>Break habits and how active you are outside of work.</p></div></li>
+    <li class="reveal" style="--c:#fb7185"><span class="ic" data-i="sun"></span><div><b>Recovery</b><p>Rest periods, screen breaks and the discomfort you already feel.</p></div></li>
+  </ul>
+</section>
+
+<section class="sec" id="how">
+  <div class="sec-head reveal"><h2>From first answer to a better desk</h2></div>
+  <ol class="steps">
+    <li class="reveal"><span class="n">1</span><b>Observe</b><p>Describe your space, posture and screen setup in a short guided form.</p></li>
+    <li class="reveal"><span class="n">2</span><b>Assess</b><p>Each answer carries a risk weight. We turn them into a score per domain.</p></li>
+    <li class="reveal"><span class="n">3</span><b>Improve</b><p>Start with the key risk factors at the top of your results.</p></li>
+    <li class="reveal"><span class="n">4</span><b>Reassess</b><p>Make a change, run it again and see if the score moves.</p></li>
+  </ol>
+</section>
+
+<section class="sec split" id="assessment">
+  <div class="reveal">
+    <div class="sec-head"><h2>Short sections, answers that count</h2>
+    <p>Every scored question is there because it points to a real strain risk. "Not sure" is never treated as a good answer.</p></div>
+    <div class="stats">
+      <div><b data-count="0" id="statSec">0</b><span>sections</span></div>
+      <div><b data-count="0" id="statQ">0</b><span>questions</span></div>
+      <div><b data-count="5">0</b><span>domains scored</span></div>
+    </div>
+    <ul class="seclist" id="secList"></ul>
+  </div>
+  <div class="mock reveal" aria-label="Example result card">
+    <div class="mock-top"><div><small>Example result</small><b>Home office</b></div><span class="tag">Moderate risk</span></div>
+    <div class="mbar" style="--w:64%;--bc:#fbbf24"><span>Ergonomics</span><i></i><em>64</em></div>
+    <div class="mbar" style="--w:78%;--bc:#fbbf24"><span>Environment</span><i></i><em>78</em></div>
+    <div class="mbar" style="--w:52%;--bc:#f87171"><span>Exposure</span><i></i><em>52</em></div>
+    <div class="mbar" style="--w:70%;--bc:#fbbf24"><span>Movement</span><i></i><em>70</em></div>
+    <div class="mbar" style="--w:84%;--bc:#34d399"><span>Recovery</span><i></i><em>84</em></div>
+    <div class="mock-note"><b>Fix first:</b> sitting 4+ hours without a break</div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="sec-head reveal"><h2>Questions people ask</h2></div>
+  <div class="reveal">
+    <details><summary>Is this a medical tool?</summary><p>No. It is a wellness assessment tool. It does not diagnose or predict medical conditions. If you have pain that persists, please see a doctor.</p></details>
+    <details><summary>Do I need a real account?</summary><p>No. This is a free demo, so you can register with any email. Nothing is sent to a server.</p></details>
+    <details><summary>Where are my answers stored?</summary><p>Only in this browser on your device. Logging out does not delete your assessments, and clearing your browser data does.</p></details>
+    <details><summary>What do I get at the end?</summary><p>Findings, exposure and risk indicators, prioritised recommendations, wellness and movement suggestions, and a downloadable PDF report from Sanatan Labs.</p></details>
+  </div>
+</section>
+
+<section class="final reveal">
+  <h2>Check your workspace in one sitting</h2>
+  <p>Create a free demo account with any email, answer the questions and see your score.</p>
+  <a class="btn solid lg" id="finalStart" href="pages/login.html">Start your assessment</a>
+</section>
+</main>
+
+<footer class="foot">
+  <span>© Sanatan Labs. SMART-03 Wellness Home Guardian.</span>
+  <span>A wellness assessment tool, not a medical device. It does not diagnose or predict medical conditions.</span>
+</footer>
+
+<script src="js/icons.js"></script>
+<script src="js/questions.js"></script>
+<script src="js/pages/landing.js"></script>
+</body>
+</html>
